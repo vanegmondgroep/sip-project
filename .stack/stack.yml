@@ -1,0 +1,10 @@
+---
+services:
+  runtime:
+    image: ghcr.io/vanegmondgroep/sip:2.0.1
+    volumes:
+      - storage:/home/runtime/public/storage
+      - ${STACK_PROJECT_DIR}/.env:/home/runtime/public/.env
+
+volumes:
+  storage:

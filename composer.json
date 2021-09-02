@@ -4,11 +4,6 @@
     "type": "project",
     "license": "MIT",
     "require": {
-        "vanegmondgroep/sip-stack": "^1.0"
-    },
-    "scripts": {
-        "post-update-cmd": [
-            "@php vendor/vanegmondgroep/sip-stack/init.php"
-        ]
+        "sitepilot/stack": "^1.0"
     }
 }
